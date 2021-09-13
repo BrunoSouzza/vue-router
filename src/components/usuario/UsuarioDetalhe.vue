@@ -2,7 +2,13 @@
   <div class="usuario-detalhe">
       <h3>Usuário Detalhe</h3>
       <hr>
-      <p>Paramtro: <strong>{{ id }}</strong></p>
+      <p>Parametro: <strong>{{ id }}</strong></p>   
+      <router-link 
+        tag="button"
+        primario 
+        :to="`/usuario/${id}/editar`">
+        Editar
+      </router-link>
   </div>
 </template>
 

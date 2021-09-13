@@ -1,11 +1,15 @@
 <template>
   <div class="usuario-editar">
       <h3>Usuário Editar</h3>
+      <hr>
+      <p>Paramtro: <strong>{{ id }}</strong></p>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: ['id'],
+};
 </script>
 
 <style>
