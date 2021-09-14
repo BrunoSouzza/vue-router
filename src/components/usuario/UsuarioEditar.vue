@@ -2,7 +2,10 @@
   <div class="usuario-editar">
       <h3>Usuário Editar</h3>
       <hr>
-      <p>Paramtro: <strong>{{ id }}</strong></p>
+      <p>Params: <strong>{{ id }}</strong></p>
+      <hr>
+      Quers:
+      <p>Completo: <strong>{{$route.query.completo}}</strong> | Lingua: <strong>{{$route.query.lingua}}</strong></p>
   </div>
 </template>
 

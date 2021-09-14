@@ -14,6 +14,7 @@ export default new Router({
   mode: 'history',
   routes: [
     {
+      name: 'rotaInicio',
       path: '/',
       component: Inicio,
     },
@@ -33,6 +34,7 @@ export default new Router({
         {
           path: ':id/editar',
           component: UsuarioEditar,
+          name: 'rotaEditar',
           props: true,
         },
       ],
